@@ -1,0 +1,70 @@
+.room-card {
+    flex: 0 0 45%;
+    margin-bottom: 20px;
+    background-color: #F3F2EF;
+    border-radius: 15px;
+}
+
+.room-card p {
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.room-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-bottom: 2px solid rgb(61, 132, 7);
+    border-radius: 15px 15px 0 0;
+}
+
+.roomLinkContainer {
+    background-color: transparent;
+    border-radius: 15px 15px 0 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.roomLinkContainer:hover {
+    background-color: rgba(243, 242, 239, 0.8);
+}
+
+.roomLinkContainer:hover .roomLink {
+    height: 30px;
+    display: block;
+}
+
+.roomLink:hover {
+    color: rgb(28, 66, 4) !important;
+    height: 30px;
+    display: block;
+}
+
+.roomLink {
+    display: none;
+    color: rgb(61, 132, 7);
+    height: 0px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.room-title {
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 850px) {
+    .room-card {
+        flex: 0 0 100%;
+    }
+}

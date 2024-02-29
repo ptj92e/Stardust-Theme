@@ -1,0 +1,48 @@
+{
+    "name": "stardust",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/preset-env": "^7.23.3",
+        "@devloco/react-scripts-wptheme": "3.4.1-wp.1",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "axios": "^1.5.0",
+        "bootstrap": "^5.3.1",
+        "env-cmd": "^10.1.0",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.8.0",
+        "react-datepicker": "^4.11.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.9.0"
+    },
+    "scripts": {
+        "crabuild": "react-scripts build",
+        "craeject": "react-scripts eject",
+        "crastart": "react-scripts start",
+        "cratest": "react-scripts test",
+        "build": "wptheme-scripts --openssl-legacy-provider build",
+        "start": "env-cmd -f ../.env.stardust wptheme-scripts --openssl-legacy-provider start",
+        "wpbuild": "wptheme-scripts --openssl-legacy-provider wpbuild",
+        "wpstart": "wptheme-scripts wpstart"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "/wp-content/themes/stardust-theme",
+    "browserLaunchTo": "https://stardustowners.com"
+}

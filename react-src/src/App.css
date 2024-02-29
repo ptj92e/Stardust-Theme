@@ -1,0 +1,13 @@
+.App {
+    min-height: 100vh;
+    position: relative;
+}
+
+.spacer {
+    width: 100%;
+    height: 72px;
+}
+
+.form-label {
+  margin-bottom: 0;
+}

@@ -1,0 +1,56 @@
+.boardMembers {
+  padding: 0;
+  display: flex;
+}
+
+.boardMembers li {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+#owners button:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.greenText {
+  color:rgb(61, 132, 7);
+  cursor: pointer;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: rgb(61, 132, 7);
+}
+
+.boardAccordion ul {
+  padding: 0;
+}
+
+.boardAccordion ul li {
+  list-style-type: none;
+}
+
+.boardAccordion ul li a {
+  color: rgb(61, 132, 7);
+  text-decoration: none;
+}
+
+@media (max-height: 700px) {
+  #owners {
+      padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 780px) {
+  .boardMembers {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  #owners {
+      padding-bottom: 175px;
+  }
+}

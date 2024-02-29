@@ -1,0 +1,31 @@
+#room-list {
+    display: flex;
+    justify-content: center;
+}
+
+#room-list-content {
+    margin: 5vh 0;
+}
+
+.roomSeparator {
+    width: 50%;
+}
+
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+@media only screen and (max-width: 850px) {
+    .flex-list li {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .flex-list li {
+        width: 100%;
+    }
+}

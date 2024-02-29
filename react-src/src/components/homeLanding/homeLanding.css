@@ -1,0 +1,40 @@
+#landing {
+    height: 85vh;
+    position: relative;
+}
+
+.arrowDiv {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 125px;
+    width: 100%;
+    background: linear-gradient(transparent, white 75%);
+    position: absolute;
+    bottom: -2px;
+}
+
+.transparentButton {
+    background-color: transparent;
+    border: none;
+}
+
+.transparentButton:hover .arrow {
+    filter: brightness(85%);
+}
+
+.arrow {
+    border: solid;
+    border-color: rgb(61, 132, 7);
+    height: 20px;
+    width: 20px;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: border-color 0.3s;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

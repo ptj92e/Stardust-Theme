@@ -1,0 +1,23 @@
+.login {
+    width: 75px;
+    margin: 0 20px 0 0 !important;
+    background-color: rgb(61, 132, 7) !important;
+    border-color: rgb(61, 132, 7) !important;
+}
+
+.login:hover {
+    background-color: white !important;
+    color: rgb(61, 132, 7) !important;
+}
+
+.register {
+    width: 100px;
+    background-color: white !important;
+    border-color: rgb(61, 132, 7) !important;
+    color: rgb(61, 132, 7) !important;
+}
+
+.register:hover {
+    background-color: rgb(61, 132, 7) !important;
+    color: white !important;
+}

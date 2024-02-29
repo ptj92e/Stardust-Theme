@@ -1,0 +1,42 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    border-top: 3px solid rgb(61, 132, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+#footer-content .row>* {
+    width: initial;
+}
+
+#footer-content .row {
+    --bs-gutter-x: 0;
+}
+
+.row a {
+    color: rgb(153,162,168);
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    .row a {
+      width: 100%;
+      text-align: center;
+      padding-top: 15px;
+    }
+}
+
+#footer-content p {
+    color: rgb(153,162,168);
+    text-align: center;
+    margin: 10px 0 0 0;
+}

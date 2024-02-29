@@ -1,0 +1,118 @@
+.image-container {
+    height: 100%;
+    width: 100%;
+    border-right: 3px solid rgb(61, 132, 7);
+}
+
+.image-container #parallax .image {
+    border-radius: 15px 0 0 15px;
+}
+
+.roomCarousel button {
+    display: none;
+}
+
+.carouselImage {
+    height: 400px;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: rgb(61, 132, 7);
+}
+
+#room .roomInfo {
+    min-height: 300px !important;
+}
+
+#room .roomInfo>* {
+    padding: 0 !important;
+}
+
+#room button {
+    width: 160px;
+    padding: 6px 12px !important;
+    background-color: rgb(61, 132, 7) !important;
+    border-color: rgb(61, 132, 7) !important;
+}
+
+#room button:hover {
+    background-color: white !important;
+    color: rgb(61, 132, 7) !important;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #F3F2EF;
+    border-radius: 0 15px 15px 0;
+    padding: 0 15px;
+}
+
+.description p {
+    text-align: center;
+}
+
+.spinner-border {
+    height: 4rem !important;
+    width: 4rem !important;
+}
+
+.addFlex {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenText {
+    color:rgb(61, 132, 7);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-height: 700px) {
+    #room {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 450px) or (max-height: 850px) {
+    #room {
+        padding-bottom: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    #room {
+        padding-bottom: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .roomCarousel a {
+        width: 15% !important;
+    }
+
+}
+
+@media (max-width: 770px) {
+    .image-container {
+        height: 300px;
+        border-right: none;
+        border-bottom: 3px solid rgb(61, 132, 7);
+    }
+
+    .carouselImage {
+        border-radius: 15px 15px 0 0;
+        height: 300px;
+    }
+
+    .description {
+        padding: 15px 0;
+        border-radius: 0 0 15px 15px !important;
+    }
+}
