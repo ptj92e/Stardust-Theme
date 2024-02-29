@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/wp-content/themes/stardust/static/css/main.chunk.css",
+    "main.js": "/wp-content/themes/stardust/static/js/main.chunk.js",
+    "main.js.map": "/wp-content/themes/stardust/static/js/main.chunk.js.map",
+    "runtime-main.js": "/wp-content/themes/stardust/static/js/bundle.js",
+    "runtime-main.js.map": "/wp-content/themes/stardust/static/js/bundle.js.map",
+    "static/css/2.chunk.css": "/wp-content/themes/stardust/static/css/2.chunk.css",
+    "static/js/2.chunk.js": "/wp-content/themes/stardust/static/js/2.chunk.js",
+    "static/js/2.chunk.js.map": "/wp-content/themes/stardust/static/js/2.chunk.js.map",
+    "index.php": "/wp-content/themes/stardust/index.php",
+    "precache-manifest.05f026ff5e068e4e50a1994358113d41.js": "/wp-content/themes/stardust/precache-manifest.05f026ff5e068e4e50a1994358113d41.js",
+    "service-worker.js": "/wp-content/themes/stardust/service-worker.js",
+    "static/css/2.chunk.css.map": "/wp-content/themes/stardust/static/css/2.chunk.css.map",
+    "static/css/main.chunk.css.map": "/wp-content/themes/stardust/static/css/main.chunk.css.map",
+    "static/js/2.chunk.js.LICENSE.txt": "/wp-content/themes/stardust/static/js/2.chunk.js.LICENSE.txt",
+    "static/media/Lake_Tahoe.96445d18.jpeg": "/wp-content/themes/stardust/static/media/Lake_Tahoe.96445d18.jpeg",
+    "static/media/fireworks.06a76d05.jpg": "/wp-content/themes/stardust/static/media/fireworks.06a76d05.jpg",
+    "static/media/lake-sunset.a2da7fe2.jpg": "/wp-content/themes/stardust/static/media/lake-sunset.a2da7fe2.jpg",
+    "static/media/north-shore.6dfaff39.jpg": "/wp-content/themes/stardust/static/media/north-shore.6dfaff39.jpg",
+    "static/media/reflection.b5301df9.jpg": "/wp-content/themes/stardust/static/media/reflection.b5301df9.jpg",
+    "static/media/skiing.1a24b201.jpg": "/wp-content/themes/stardust/static/media/skiing.1a24b201.jpg",
+    "static/media/stardust_nav_logo.0e25ae6e.png": "/wp-content/themes/stardust/static/media/stardust_nav_logo.0e25ae6e.png"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/css/2.chunk.css",
+    "static/js/2.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}
